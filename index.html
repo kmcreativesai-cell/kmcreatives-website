@@ -66,6 +66,7 @@
     transition: color 0.3s;
   }
   .nav-logo:hover { color: var(--warm-tan); }
+  .nav-logo img { width: 40px; height: 40px; object-fit: contain; display: block; }
 
   .nav-links {
     display: flex;
@@ -654,13 +655,14 @@
     document.getElementById(id).classList.remove('active');
   }
 </script>
-<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE+UlEQVR4nO2WTWxUVRTHf/d9zrTQDjCdznQgUqiVGlBrEWhicGNwYeIGXBiUEkzEBHVhjInGyEpj4sKVcaEhECCCKGHlwmBkRTAR2lqKIEppC3RIv5i2tDPv3Q8X0z5mCo3ucNGbvMV7555zfu/ee/7nig/3f2p4iMN6mMkXARYB/hcATvmLMQaYq0qBEGIB2z37Qt//ze+BAJ7vR0ZjDDIM0VpjWRae71fEUVphtMa2HYQlSjZRyhXKEKM1AL7vg7hnn4tbAisD0FpzsbuTwsw0ALF4Fasb11JVvYRiscDF37uQYVCCw7B8eZJUOsNgfx/Td+9GyV3PY83aZqqqq1FK0dN1gUJhZhbCEItX0bimCT8WQ2uNY4zB83z6+6/x0osvsG3b8wD09vZy4NC3NDW30N93lf0fvU8mnUFpje97HDx0mJ9O/8I7+95g48aNKKWwbZuB/gE++/wLNm55lt6eLl7b+TKbN29GSYXt2PT2XuKbA0d47PH1BEGxcgWSySTpdAaA0dExtDF0/naO9959m9bWp6PlP3r0KL1XrtGQXUVtIhH5AKTTGbLZDBMTeVQY0L6lnVR9fWQfGRnFlO1lRRWEs3sz91y+dJFdr77C1q3PIaUE4PCRI/xw6keaHm1GKUkYlHyUUiilAGhI1zPQP8CaxkdI1tWVzoxSGGMIgqA8ZSWAECJ6giDg9T0d7NixPUp+7Nhxjn9/ig1PPkUYhBU+UkomJiYAaGtrY2TkNplMPZZlMT4+jlIqmrsgQPl2tLS08Na+fWitsW2bu1NTHDx0mPUbWmf/tLKJzszMcOXKFQBaWtYxnLtJa2srAN3d3eTz+dmZlX4PBDDGEI/HMcZgWRZaa2oTCTp27WRw4Dqu62LmNXHPc+np6SEMQ7LZLC3rmlm1ciUAZ86cYWJicjZ2pd+CSmiMQQhBoVDAtm2MMWzfvp3aJXHy+TyOY1fMj8XinD9/gaGhISzL4s29e0kmkxij6ey8QCzmPzDPglsghODs2bN0dOxmamqKUrl67O7YybW//sRx3EhMYLbMhcXVq1cBaG9vp7q6mlu3hujpuVQSpP8K4DgONwYH+fKrr5G4fHfiBJZlEYYhmzZt5on16xgcHMD3/QhCCItiocC5c79GKwhw6Y/LLK2puX/t5wMIIdBaI6VEKcWNW7fQCFrbnuH0z2cYHh4GIAhD9uzu4M7YMMViUJJWKQmDgHhVFTeHciil0LpUml2dXfixKqSSUezySogAlFIsXboEx3FwHIe6ZBIpQywhcGPVnDx5Etd18VyX1Y2N7OnYyUB/HytWrMBxHFzPY/nyFfRdH2BmeppYzMe2bXLDw9TU1LBsWQLHcUgkEpFeAIgPPv7E2LbDnTtjIGdoyJRUbXJyiuHxSTINWZTSDPb/TfPa1diOjdEGrRXnuy7S3LSGRG0NWitu5kYIQk0yUUVtbS35/B1uDI0gpaTxkQZqltYwMTnJyPgUmYaVSBki5m7FlmUxOjpaaiyAH4tRl0qhlcKyLKSU5HJDZd1akM1mGRsbY2Z6GgSkUvXE43Fu53IUCgUs2yadTgOQyw2hlcaPxUilUujZbhkBGGNwXRfbtqNKCMOw7JQLPM+L3udk1XGcyCcIArTWeJ6HZVkV0ut5XnTOyuM65QmklJHszh/GGIrF4n3f5/sIISoSzI35PWBuPPQr2SLAIsAiwD+oI38yv7NVjQAAAABJRU5ErkJggg==">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
 </head>
 <body>
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-logo" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><img src="asset-1.png" alt="KM Creatives"></a>
+  <a href="#hero" class="nav-logo" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><img src="favicon.png" alt="KM Creatives"></a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#content">Content</a></li>
